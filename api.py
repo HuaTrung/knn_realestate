@@ -90,4 +90,4 @@ def predictNearRealestate():
 # r = Recommender(matrix) # pass the matrix to the model
 # r.fit() # pass the matrix to the model
 if __name__ == "__main__":
-	app.run(debug=True)
+	app.run(port=5000)
