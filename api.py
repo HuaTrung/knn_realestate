@@ -7,9 +7,9 @@ import numpy as np
 
 app = Flask(__name__)
 mydb = mysql.connector.connect(
-  host="45.119.83.116",
-  user="trung",
-  passwd="Trung!@3",
+  host="localhost",
+  user="root",
+  passwd="root",
   database='realEstateSchema'
 )
 cursor = mydb.cursor()
