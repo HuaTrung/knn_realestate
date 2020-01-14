@@ -8,8 +8,8 @@ import numpy as np
 app = Flask(__name__)
 mydb = mysql.connector.connect(
   host="localhost",
-  user="root",
-  passwd="root",
+  user="phpmyadmin",
+  passwd="Thanh!23",
   database='realEstateSchema'
 )
 cursor = mydb.cursor()
